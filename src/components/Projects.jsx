@@ -1,6 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
+import preview from "/src/assets/preview.png";
+//import preview from "/assets/preview.png";
 
 function Projects() {
   const projects = [
@@ -12,7 +14,7 @@ function Projects() {
       frontend: "https://onlinerentauto.netlify.app/",
       backend:
         "https://github.com/stanli206/Online-Vehicle-Rental-System_Backend.git",
-      image: "/assets/preview.png",
+      image: preview,
     },
     {
       title: "E-Commerce Platform",
