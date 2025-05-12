@@ -94,7 +94,7 @@ function Hero() {
           >
             <div className="relative">
               <img
-                src="/110A9766-fotor-bg-remover-2025043012416.png"
+                src="/profilePic.png"
                 alt="Profile"
                 className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover border-4 border-teal-500 shadow-xl"
               />
