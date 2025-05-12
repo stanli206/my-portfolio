@@ -1,45 +1,50 @@
-import React from 'react';
-import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import React from "react";
+import { motion } from "framer-motion";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 function Projects() {
   const projects = [
     {
-      title: 'Vehicle Rental System',
-      description: 'Full-featured MERN application with vehicle bookings, payment integration, and admin dashboard functionality.',
-      tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      frontend: 'https://onlinerentauto.netlify.app/',
-      backend: 'https://github.com/stanli206/Online-Vehicle-Rental-System_Backend.git',
-      image: '/public/preview.png'
+      title: "Vehicle Rental System",
+      description:
+        "Full-featured MERN application with vehicle bookings, payment integration, and admin dashboard functionality.",
+      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      frontend: "https://onlinerentauto.netlify.app/",
+      backend:
+        "https://github.com/stanli206/Online-Vehicle-Rental-System_Backend.git",
+      image: "/src/assets/preview.png",
     },
     {
-      title: 'E-Commerce Platform',
-      description: 'Complete online store with product management, user authentication, cart functionality, and payment processing.',
-      tags: ['Next.js', 'MongoDB', 'Redux', 'Stripe'],
-      frontend: 'https://ecommerce-store.vercel.app',
-      backend: 'https://github.com/yourusername/ecommerce-app',
-      image: '/images/ecommerce.jpg'
+      title: "E-Commerce Platform",
+      description:
+        "Complete online store with product management, user authentication, cart functionality, and payment processing.",
+      tags: ["Next.js", "MongoDB", "Redux", "Stripe"],
+      frontend: "https://ecommerce-store.vercel.app",
+      backend: "https://github.com/yourusername/ecommerce-app",
+      image: "/images/ecommerce.jpg",
     },
     {
-      title: 'Task Management App',
-      description: 'Productivity application with task organization, team collaboration, and real-time updates.',
-      tags: ['React', 'Firebase', 'Tailwind CSS', 'Context API'],
-      frontend: 'https://task-manager-app.vercel.app',
-      backend: 'https://github.com/yourusername/task-manager',
-      image: '/images/task-manager.jpg'
+      title: "Task Management App",
+      description:
+        "Productivity application with task organization, team collaboration, and real-time updates.",
+      tags: ["React", "Firebase", "Tailwind CSS", "Context API"],
+      frontend: "https://task-manager-app.vercel.app",
+      backend: "https://github.com/yourusername/task-manager",
+      image: "/images/task-manager.jpg",
     },
     {
-      title: 'Social Media Dashboard',
-      description: 'Analytics dashboard for social media metrics with data visualization and user management.',
-      tags: ['React', 'Express', 'MongoDB', 'Chart.js'],
-      frontend: 'https://social-dashboard.vercel.app',
-      backend: 'https://github.com/yourusername/social-dashboard',
-      image: '/images/social-dashboard.jpg'
-    }
+      title: "Social Media Dashboard",
+      description:
+        "Analytics dashboard for social media metrics with data visualization and user management.",
+      tags: ["React", "Express", "MongoDB", "Chart.js"],
+      frontend: "https://social-dashboard.vercel.app",
+      backend: "https://github.com/yourusername/social-dashboard",
+      image: "/images/social-dashboard.jpg",
+    },
   ];
 
   return (
-    <section 
+    <section
       id="projects"
       className="py-20 bg-gradient-to-br from-gray-800 via-purple-900 to-gray-900 text-white relative overflow-hidden"
     >
@@ -47,7 +52,7 @@ function Projects() {
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full bg-[url('/dots.png')] bg-cover bg-center"></div>
       </div>
-      
+
       <div className="container mx-auto px-4 z-10">
         <motion.div
           initial={{ opacity: 0, y: 50 }}
@@ -86,10 +91,10 @@ function Projects() {
               <div className="p-6">
                 <h3 className="text-2xl font-semibold mb-2">{project.title}</h3>
                 <p className="text-gray-300 mb-4">{project.description}</p>
-                
+
                 <div className="flex flex-wrap gap-2 mb-6">
                   {project.tags.map((tag, tagIndex) => (
-                    <span 
+                    <span
                       key={tagIndex}
                       className="text-xs bg-gray-700 text-teal-400 px-3 py-1 rounded-full"
                     >
@@ -97,7 +102,7 @@ function Projects() {
                     </span>
                   ))}
                 </div>
-                
+
                 <div className="flex gap-4">
                   <motion.a
                     whileHover={{ scale: 1.05 }}
