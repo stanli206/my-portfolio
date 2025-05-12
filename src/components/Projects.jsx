@@ -12,7 +12,7 @@ function Projects() {
       frontend: "https://onlinerentauto.netlify.app/",
       backend:
         "https://github.com/stanli206/Online-Vehicle-Rental-System_Backend.git",
-      image: "/src/assets/preview.png",
+      image: "/assets/preview.png",
     },
     {
       title: "E-Commerce Platform",
