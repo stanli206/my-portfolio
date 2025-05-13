@@ -20,29 +20,29 @@ function Projects() {
       title: "E-Commerce Platform",
       description:
         "Complete online store with product management, user authentication, cart functionality, and payment processing.",
-      tags: ["Next.js", "MongoDB", "Redux", "Stripe"],
+      tags: ["Node.js", "MongoDB", "Redux", "Stripe"],
       frontend: "https://ecommerce-store.vercel.app",
       backend: "https://github.com/yourusername/ecommerce-app",
       image: "/images/ecommerce.jpg",
     },
-    {
-      title: "Task Management App",
-      description:
-        "Productivity application with task organization, team collaboration, and real-time updates.",
-      tags: ["React", "Firebase", "Tailwind CSS", "Context API"],
-      frontend: "https://task-manager-app.vercel.app",
-      backend: "https://github.com/yourusername/task-manager",
-      image: "/images/task-manager.jpg",
-    },
-    {
-      title: "Social Media Dashboard",
-      description:
-        "Analytics dashboard for social media metrics with data visualization and user management.",
-      tags: ["React", "Express", "MongoDB", "Chart.js"],
-      frontend: "https://social-dashboard.vercel.app",
-      backend: "https://github.com/yourusername/social-dashboard",
-      image: "/images/social-dashboard.jpg",
-    },
+    // {
+    //   title: "Task Management App",
+    //   description:
+    //     "Productivity application with task organization, team collaboration, and real-time updates.",
+    //   tags: ["React", "Firebase", "Tailwind CSS", "Context API"],
+    //   frontend: "https://task-manager-app.vercel.app",
+    //   backend: "https://github.com/yourusername/task-manager",
+    //   image: "/images/task-manager.jpg",
+    // },
+    // {
+    //   title: "Social Media Dashboard",
+    //   description:
+    //     "Analytics dashboard for social media metrics with data visualization and user management.",
+    //   tags: ["React", "Express", "MongoDB", "Chart.js"],
+    //   frontend: "https://social-dashboard.vercel.app",
+    //   backend: "https://github.com/yourusername/social-dashboard",
+    //   image: "/images/social-dashboard.jpg",
+    // },
   ];
 
   return (
