@@ -2,16 +2,17 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import preview from "/src/assets/preview.png";
-//import preview from "/assets/preview.png";
+import ecommerce from "/src/assets/ecommerce.png";
 
 function Projects() {
   const projects = [
     {
-      title: "Vehicle Rental System",
+      title: "Online Vehicle Rental System",
       description:
         "Full-featured MERN application with vehicle bookings, payment integration, and admin dashboard functionality.",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      frontend: "https://onlinerentauto.netlify.app/",
+      LiveDemo: "https://onlinerentauto.netlify.app/",
+      frontend: "https://github.com/stanli206/Online-Vehicle-Rental-System_frontEnd.git",
       backend:
         "https://github.com/stanli206/Online-Vehicle-Rental-System_Backend.git",
       image: preview,
@@ -20,10 +21,11 @@ function Projects() {
       title: "E-Commerce Platform",
       description:
         "Complete online store with product management, user authentication, cart functionality, and payment processing.",
-      tags: ["Node.js", "MongoDB", "Redux", "Stripe"],
-      frontend: "https://ecommerce-store.vercel.app",
-      backend: "https://github.com/yourusername/ecommerce-app",
-      image: "/images/ecommerce.jpg",
+      tags: ["Node.js", "MongoDB", "React", "Express","Stripe"],
+      LiveDemo: "https://onlineekart.netlify.app/",
+      frontend: "https://github.com/stanli206/E-commerce_FE.git",
+      backend: "https://github.com/stanli206/E-commerce_BE.git",
+      image: ecommerce,
     },
     // {
     //   title: "Task Management App",
@@ -109,7 +111,7 @@ function Projects() {
                   <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    href={project.frontend}
+                    href={project.LiveDemo}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white px-4 py-2 rounded"
@@ -119,12 +121,22 @@ function Projects() {
                   <motion.a
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
+                    href={project.frontend}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded"
+                  >
+                    <FaGithub /> FrontEnd
+                  </motion.a>
+                  <motion.a
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
                     href={project.backend}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded"
                   >
-                    <FaGithub /> Code
+                    <FaGithub /> BackEnd
                   </motion.a>
                 </div>
               </div>
