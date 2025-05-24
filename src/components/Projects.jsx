@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import preview from "/src/assets/preview.png";
 import ecommerce from "/src/assets/ecommerce.png";
+import chatApp from "/src/assets/chatApp.png";
 
 function Projects() {
   const projects = [
@@ -12,7 +13,8 @@ function Projects() {
         "Full-featured MERN application with vehicle bookings, payment integration, and admin dashboard functionality.",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
       LiveDemo: "https://onlinerentauto.netlify.app/",
-      frontend: "https://github.com/stanli206/Online-Vehicle-Rental-System_frontEnd.git",
+      frontend:
+        "https://github.com/stanli206/Online-Vehicle-Rental-System_frontEnd.git",
       backend:
         "https://github.com/stanli206/Online-Vehicle-Rental-System_Backend.git",
       image: preview,
@@ -21,11 +23,28 @@ function Projects() {
       title: "E-Commerce Platform",
       description:
         "Complete online store with product management, user authentication, cart functionality, and payment processing.",
-      tags: ["Node.js", "MongoDB", "React", "Express","Stripe"],
+      tags: ["Node.js", "MongoDB", "React", "Express", "Stripe"],
       LiveDemo: "https://onlineekart.netlify.app/",
       frontend: "https://github.com/stanli206/E-commerce_FE.git",
       backend: "https://github.com/stanli206/E-commerce_BE.git",
       image: ecommerce,
+    },
+    {
+      title: "Real-Time Chat Application",
+      description:
+        "Full-featured messaging platform with user authentication, real-time messaging, online status tracking, and message history.",
+      tags: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Socket.IO",
+        "Tailwind CSS",
+      ],
+      LiveDemo: "https://notebookchat.netlify.app/", 
+      frontend: "https://github.com/stanli206/ChatApp_FE.git", 
+      backend: "https://github.com/stanli206/ChatApp_BE.git", 
+      image: chatApp,      
     },
     // {
     //   title: "Task Management App",
