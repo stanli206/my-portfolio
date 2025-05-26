@@ -17,12 +17,12 @@ function About() {
     {
       icon: <FaDatabase size={32} />,
       title: "Database",
-      description: "MongoDB, MSSql",
+      description: "MongoDB, MySql",
     },
     {
       icon: <FaCode size={32} />,
       title: "Tools",
-      description: "Git, Postman",
+      description: "GitHub, Postman",
     },
   ];
 
