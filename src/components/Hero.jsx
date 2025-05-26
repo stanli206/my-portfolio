@@ -37,28 +37,33 @@ function Hero() {
               />
             </h1>
             <p className="text-xl text-gray-300 mb-8 leading-relaxed">
-              I build fast, responsive, and scalable web applications using
+              MERN stack developer skilled in building full-stack web
+              applications using MongoDB, Express.js, React, and Node.js.
+              Focused on writing clean, maintainable code and creating
+              responsive, user-friendly interfaces. Dedicated to continuous
+              learning and staying updated with modern web technologies.
+              {/* I build fast, responsive, and scalable web applications using
               MongoDB, Express, React, and Node.js. Passionate about creating
-              elegant solutions to complex problems.
+              elegant solutions to complex problems. */}
             </p>
             <div className="flex flex-wrap gap-4 justify-center md:justify-start">
               <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                href="/stantilin_MERN_Resume.pdf"
+                href="/Stantilin_MERN_Resume.pdf"
                 download
                 className="flex items-center gap-2 bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full transition-all duration-300 shadow-lg"
               >
                 <FaFileDownload /> Download Resume
               </motion.a>
-              <motion.a
+              {/* <motion.a
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 href="#contact"
                 className="flex items-center gap-2 bg-transparent border-2 border-teal-600 text-teal-400 hover:bg-teal-900/30 px-6 py-3 rounded-full transition-all duration-300"
               >
                 <HiOutlineMail /> Contact Me
-              </motion.a>
+              </motion.a> */}
             </div>
 
             <div className="mt-12 flex gap-6 justify-center md:justify-start">

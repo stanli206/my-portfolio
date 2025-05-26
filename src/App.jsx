@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import { motion } from 'framer-motion';
 import './App.css';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -21,13 +22,13 @@ function App() {
       >
         <About />
       </motion.div>
-      <motion.div
+      {/* <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.4, duration: 1 }}
       >
         <Skills />
-      </motion.div>
+      </motion.div> */}
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -41,6 +42,13 @@ function App() {
         transition={{ delay: 0.8, duration: 1 }}
       >
         <Contact />
+      </motion.div>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ delay: 0.8, duration: 1 }}
+      >
+        <Footer/>
       </motion.div>
     </div>
   );
