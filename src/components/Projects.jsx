@@ -4,6 +4,7 @@ import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import preview from "/src/assets/preview.png";
 import ecommerce from "/src/assets/ecommerce.png";
 import chatApp from "/src/assets/chatApp.png";
+import HMS from "/src/assets/HMS.png";
 
 function Projects() {
   const projects = [
@@ -41,10 +42,20 @@ function Projects() {
         "Socket.IO",
         "Tailwind CSS",
       ],
-      LiveDemo: "https://notebookchat.netlify.app/", 
-      frontend: "https://github.com/stanli206/ChatApp_FE.git", 
-      backend: "https://github.com/stanli206/ChatApp_BE.git", 
-      image: chatApp,      
+      LiveDemo: "https://notebookchat.netlify.app/",
+      frontend: "https://github.com/stanli206/ChatApp_FE.git",
+      backend: "https://github.com/stanli206/ChatApp_BE.git",
+      image: chatApp,
+    },
+    {
+      title: "Hospital Management System",
+      description:
+        "Comprehensive Hospital Management System built with MERN stack featuring patient records, appointment scheduling, doctor management, and role-based access control with responsive Tailwind CSS UI.",
+      tags: ["React", "Node.js", "MongoDB", "Express"],
+      LiveDemo: "https://hiimshealth.netlify.app/",
+      frontend: "https://github.com/stanli206/HospitalManagementSystem_FE.git",
+      backend: "https://github.com/stanli206/HospitalManagementSystem_BE.git",
+      image: HMS,
     },
     // {
     //   title: "Task Management App",
