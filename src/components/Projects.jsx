@@ -12,7 +12,7 @@ function Projects() {
       title: "Online Vehicle Rental System",
       description:
         "Full-featured MERN application with vehicle bookings, payment integration, and admin dashboard functionality.",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
+      tags: ["React", "Node.js","Express", "MongoDB", "Stripe"],
       LiveDemo: "https://onlinerentauto.netlify.app/",
       frontend:
         "https://github.com/stanli206/Online-Vehicle-Rental-System_frontEnd.git",
